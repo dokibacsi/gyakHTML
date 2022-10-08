@@ -191,3 +191,53 @@ a:active{
         margin: 10px 0px 10px 40px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    #tarolo{
+        max-width: 300px;
+        margin: auto;
+        grid-template-areas: "focim"
+        "navig "
+        "tartalom";
+    }   
+
+    #tarolo h1{
+        text-align: center;
+    }
+
+    #navig ul{
+        margin-left: 1px;
+    }
+
+    #navig ul li{
+        max-width: 100px;
+        display: grid;
+        border: 2px solid #FF9FF6;
+        padding: 8px;
+        margin-top: 10px;
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .tartalomBox{
+        max-width: 200px;
+        width: 80%;
+        border: 2px solid #8E598B;
+        border-radius: 30px;
+        padding: 10px;
+        display: inline-block;
+    }
+
+    .tartalomBox img{
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+
+    .tartalomBox h2{
+        width: 100px;
+        margin: auto;
+        text-align: center;
+        font-size: 13pt;
+    }
+}
